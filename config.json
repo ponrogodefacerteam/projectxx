@@ -1,0 +1,47 @@
+{
+
+ "Account": {
+"Username": " ",
+     "Password": " "
+     },
+ "Target Profit": "5",
+ "Target Win": "100000000000000",
+ "Lose Target": "0",
+ "Reset If Target Profit": "OFF",
+ "Reset If Target Win": "ON",
+ "Interval": "0",
+ "Config": [{
+
+     "Name Bet Set": "Betset Bebas",
+     "Base Bet": "0.00000100",
+     "Max Bet": "10.00000000",
+     "Chance": "80",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "49.95",
+          "Max": "70"
+        },
+     "Bet": {
+          "Bet": "Hi",
+          "Hi / Low": {
+              "Toggle": "ON",
+              "If Lose": "3",
+              "If Win": "1"
+            }
+        },
+     "If Win": "1.89",
+     "If Lose": "1.567",
+     "Reset If Win": "3",
+     "Reset If Profit": "0.0000001",
+     "Interval": "50"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "OFF",
+       "If Balance": "0",
+       "Wallet Address":   "xxxxxxxxx ",
+       "Amount": "0"
+      },
+  "User-Agent": "Android Phone / Chrome 65 [Mobile]:Mozilla/5.0 (Linux; Android 8.0; BLA-L29 Build/HUAWEIBLA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3236.6 Mobile Safari/537.36"
+
+}
